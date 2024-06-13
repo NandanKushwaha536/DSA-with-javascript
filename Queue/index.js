@@ -38,7 +38,7 @@ class Queue{
     printQueue(){
         let str=""
         for(let i = 0; i < this.queue.length; i++){
-            str += this.queue[i] + "/"
+            str += this.queue[i] + "\n"
         }
 
         return str
